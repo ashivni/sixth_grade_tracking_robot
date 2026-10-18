@@ -5,17 +5,15 @@ Do the exercises in number order. Try each one yourself before opening its match
 
 ## How to run an exercise
 
-These are ordinary C++ programs for a computer. No Arduino is needed.
-Use a C++ compiler such as `clang++` or `g++`. From the repository folder:
+Run these exercises in your browser using [cpp.sh](https://cpp.sh/). No installation or Arduino is needed.
 
-```sh
-mkdir -p build
-clang++ -std=c++11 exercises/cpp_basics/starter/01_variables.cpp -o build/exercise
-./build/exercise
-```
+1. Open an exercise file in the `starter/` folder, starting with [`01_variables.cpp`](starter/01_variables.cpp).
+2. Copy all of the code in that file.
+3. Open [cpp.sh](https://cpp.sh/) and replace the example code in the editor with your copied code.
+4. Complete the `TODO` comments in the editor.
+5. Click **Run** and compare the printed answer with the exercise's expected output.
 
-Replace the filename when you move to the next exercise. Compile again after each edit.
-If your compiler is `g++`, use `g++` instead of `clang++`.
+After changing your code, click **Run** again. For the next exercise, replace the code in the editor with that exercise's starter code.
 
 Every file has a few lines already written for you:
 
@@ -146,4 +144,4 @@ This function requires **at least one element**; do not give it an empty array.
 
 There are three exercises per topic. Student-written code uses only `int`, arrays of `int`, basic arithmetic and comparisons, assignment, `if/else`, simple `for` loops, and functions returning `int`. Printing and `main` are provided setup.
 
-Each solution has the same filename as its starter. To run one, change `starter/` to `solutions/` in the compile command. Ask students to predict the result, run the program, and explain any difference. The extra input suggestions above are optional checks, not additional constructs.
+Each solution has the same filename as its starter. To run one, copy all of its code into [cpp.sh](https://cpp.sh/), replacing the code in the editor, and click **Run**. Ask students to predict the result, run the program, and explain any difference. The extra input suggestions above are optional checks, not additional constructs.
