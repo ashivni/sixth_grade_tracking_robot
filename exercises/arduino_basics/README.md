@@ -4,6 +4,10 @@ An Arduino board is a small programmable electronic board. Its **microcontroller
 
 ## Meet the board
 
+![Labeled sketch of an Arduino Uno R3 board](images/arduino-uno-board.svg)
+
+This simplified sketch shows the main parts of an Uno R3; your board may look slightly different.
+
 Look for these parts on your board:
 
 - **USB connector:** connects the board to your computer to send it a program and provide power.
@@ -23,6 +27,14 @@ This lesson uses an Arduino Uno or a similar board with a built-in LED supported
 - A computer with the [Arduino IDE](https://www.arduino.cc/en/software/) installed.
 
 The IDE is the app where you write code and send it to the board. An Arduino program is called a **sketch**. For this exercise, the built-in LED needs no extra wiring.
+
+## The built-in LED circuit
+
+![Simplified internal circuit for the Uno R3 built-in LED](images/built-in-led-circuit.svg)
+
+Everything in this diagram is already connected inside the Uno R3. Your program controls the pin 13 signal, an on-board buffer drives the LED, and a resistor limits the current. **You do not need to build this circuit or add any wires.** Just connect the USB cable.
+
+This is a simplified teaching diagram based on the [official Uno R3 schematic](https://docs.arduino.cc/resources/schematics/A000066-schematics.pdf). Power connections and other board circuitry are omitted; other Arduino models may use a different LED circuit.
 
 ## The two parts of a sketch
 

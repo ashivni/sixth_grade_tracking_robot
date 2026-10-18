@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+<title id="title">Meet the Arduino Uno R3</title>
+<desc id="desc">Simplified top view showing USB at left, reset button, digital pins at top, built-in LED L, microcontroller, power and ground pins, and analog inputs at bottom.</desc>
+<rect width="1000" height="620" rx="20" fill="#f5f8fc"/>
+<g font-family="Arial, sans-serif" fill="#172c45">
+<text x="40" y="52" font-size="30" font-weight="bold">Meet the Arduino Uno R3</text>
+<text x="40" y="82" font-size="17">A simplified top view • Not to scale • Small components omitted</text>
+<path d="M260 155 H735 L765 185 V475 H260 Z" fill="#087f8c" stroke="#075863" stroke-width="4"/>
+<g fill="#f5f8fc" stroke="#b9cdd0" stroke-width="4"><circle cx="280" cy="175" r="9"/><circle cx="741" cy="195" r="9"/><circle cx="280" cy="451" r="9"/><circle cx="741" cy="451" r="9"/></g>
+<rect x="235" y="215" width="90" height="80" rx="5" fill="#c5cdd8" stroke="#475569" stroke-width="3"/>
+<rect x="235" y="230" width="22" height="50" fill="#64748b"/>
+<text x="268" y="262" font-size="17">USB</text>
+<rect x="285" y="174" width="43" height="29" rx="3" fill="#d1d5db"/><circle cx="306" cy="188" r="9" fill="#b91c1c"/>
+<rect x="385" y="171" width="325" height="29" rx="3" fill="#182332"/>
+<g fill="#a8b6c6">
+<path d="M399 181h8v9h-8z M420 181h8v9h-8z M441 181h8v9h-8z M462 181h8v9h-8z M483 181h8v9h-8z M504 181h8v9h-8z M525 181h8v9h-8z M546 181h8v9h-8z M567 181h8v9h-8z M588 181h8v9h-8z M609 181h8v9h-8z M630 181h8v9h-8z M651 181h8v9h-8z M672 181h8v9h-8z M693 181h8v9h-8z"/>
+</g>
+<text x="440" y="222" fill="white" font-size="16">DIGITAL PINS 0–13</text>
+<rect x="380" y="247" width="26" height="15" rx="3" fill="#ffdb4d" stroke="#fef3c7" stroke-width="2"/>
+<text x="416" y="261" fill="white" font-size="19" font-weight="bold">L</text>
+<text x="493" y="282" fill="white" font-size="27" font-weight="bold">UNO</text>
+<rect x="420" y="324" width="275" height="73" rx="5" fill="#182332" stroke="#0f172a" stroke-width="3"/>
+<path d="M435 314v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 M435 397v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10 m20-10v10" stroke="#cbd5e1" stroke-width="7"/>
+<text x="466" y="368" fill="white" font-size="19">ATmega328P</text>
+<rect x="330" y="430" width="180" height="27" rx="3" fill="#182332"/>
+<rect x="554" y="430" width="151" height="27" rx="3" fill="#182332"/>
+<g fill="#a8b6c6"><path d="M343 439h8v9h-8z M365 439h8v9h-8z M387 439h8v9h-8z M409 439h8v9h-8z M431 439h8v9h-8z M453 439h8v9h-8z M475 439h8v9h-8z M497 439h8v9h-8z M568 439h8v9h-8z M592 439h8v9h-8z M616 439h8v9h-8z M640 439h8v9h-8z M664 439h8v9h-8z M688 439h8v9h-8z"/></g>
+<g fill="none" stroke="#475569" stroke-width="2"><path d="M306 174V130H160"/><path d="M235 255H70"/><path d="M380 254H350V340H70"/><path d="M550 171V128H775"/><path d="M695 360H800"/><path d="M420 457V514H260"/><path d="M630 457V514H760"/></g>
+<g font-size="19" font-weight="bold"><text x="40" y="135">Reset button</text><text x="40" y="243">USB connector</text><text x="40" y="328">Built-in LED “L”</text><text x="780" y="134">Digital pins</text><text x="800" y="350">Microcontroller</text><text x="210" y="544">Power + GND pins</text><text x="650" y="544">Analog inputs A0–A5</text></g>
+<text x="40" y="590" font-size="18">For this lesson: connect USB and watch the yellow “L” LED. No jumper wires needed.</text>
+</g></svg>

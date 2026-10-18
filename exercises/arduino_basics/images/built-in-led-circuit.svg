@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" role="img" aria-labelledby="title desc">
+<title id="title">Inside the Uno R3: built-in LED circuit</title>
+<desc id="desc">Simplified internal circuit: the microcontroller pin 13 signal goes through an on-board buffer, then a one kiloohm resistor, the built-in LED L, and ground. USB powers the board. All parts are already connected.</desc>
+<rect width="1000" height="480" rx="20" fill="#f5f8fc"/>
+<g font-family="Arial, sans-serif" fill="#172c45">
+<text x="40" y="52" font-size="29" font-weight="bold">Inside the Uno R3: the built-in LED circuit</text>
+<text x="40" y="84" font-size="17">Simplified circuit • These connections are already on the board</text>
+<rect x="35" y="115" width="930" height="250" rx="16" fill="white" stroke="#087f8c" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="55" y="144" fill="#087f8c" font-size="16" font-weight="bold">ON THE BOARD</text>
+<rect x="65" y="190" width="180" height="90" rx="8" fill="#e2edf5" stroke="#475569" stroke-width="2"/>
+<text x="82" y="223" font-size="18" font-weight="bold">Microcontroller</text><text x="96" y="252" font-size="17">Pin 13 signal</text>
+<g stroke="#172c45" stroke-width="3" fill="none"><path d="M245 235H300"/><path d="M445 235H500"/><path d="M580 235H675"/><path d="M730 235H870V285"/>
+<rect x="500" y="221" width="80" height="28"/>
+<path d="M675 214L675 256L715 235Z" fill="#ffdb4d"/><path d="M720 212V258 M715 235H730"/>
+<path d="M850 285H890 M856 295H884 M863 305H877"/>
+<path d="M702 196L723 175L713 178 M723 175L720 185 M724 207L745 186L735 189 M745 186L742 196" stroke="#bc7c08"/>
+</g>
+<rect x="300" y="190" width="145" height="90" rx="8" fill="#e0f4f1" stroke="#087f8c" stroke-width="2"/>
+<text x="322" y="225" font-size="18" font-weight="bold">LED buffer</text><text x="323" y="250" font-size="16">on the board</text>
+<text x="497" y="190" font-size="18" font-weight="bold">1 kΩ</text><text x="497" y="285" font-size="17">Resistor</text>
+<text x="647" y="285" font-size="18" font-weight="bold">LED “L”</text><text x="845" y="334" font-size="17">GND</text>
+<text x="65" y="333" font-size="16">LED_BUILTIN selects pin 13 on the Uno.</text>
+<text x="40" y="403" font-size="18">The buffer drives the LED. The resistor limits the current through it.</text>
+<text x="40" y="435" font-size="18">USB supplies power to the board. No external LED, resistor, or wires are needed.</text>
+</g></svg>
