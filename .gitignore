@@ -1,0 +1,8 @@
+# Compiled programs and editor/OS files
+build/
+*.o
+*.exe
+*.out
+.DS_Store
+.vscode/
+.idea/
