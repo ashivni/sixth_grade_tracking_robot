@@ -132,3 +132,51 @@ For Part 2, replace **both** `delay(500);` lines with `delay(1500);`.
 The understanding-check answer is **2 seconds**: 1 second on plus 1 second off.
 
 </details>
+
+## Try it on a breadboard: an external LED
+
+The first exercise uses the LED already on the board. For this optional extension, build a circuit with a separate LED on a breadboard. We will use **digital pin 8 (D8)** to control it.
+
+![Arduino Uno connected to a breadboard with an external LED and a 220 ohm resistor](images/external-led-breadboard.svg)
+
+A breadboard lets you connect components without soldering. In each numbered column, the five holes **a–e** connect internally. The five holes **f–j** form a separate group across the center gap. Neighboring numbered columns are not connected. The long side rails distribute power or ground; some boards split these rails in the middle.
+
+### Parts and connections
+
+Use an Uno R3, a breadboard, a regular LED, a **220 Ω resistor**, and three jumper wires. Keep the resistor in the circuit to limit the LED's current. Arduino's [Blink guide](https://docs.arduino.cc/built-in-examples/basics/Blink/) also explains using an external LED and resistor.
+
+Unplug USB while making these connections. The diagram uses example hole numbers; equivalent connected holes also work.
+
+| Part | Connect it here |
+| --- | --- |
+| Green jumper | Arduino **D8** to **e20** |
+| 220 Ω resistor | One end in **d20**, the other in **d24**; either direction works |
+| LED long leg, anode (+) | **b24** |
+| LED short leg, cathode (−) | **b25**; the flat side of the LED body also marks the cathode |
+| Short black jumper | **e25** to the blue **− rail** |
+| Ground jumper | Arduino **GND** to the same continuous section of the blue **− rail** |
+
+The path is **D8 → resistor → LED → GND**. The LED legs must be in different numbered columns. The breadboard's blue line is only a label: connecting it to Arduino GND makes it the ground rail. This circuit does not need a wire from the Arduino's 5 V pin.
+
+### Blink your external LED
+
+Upload this sketch after checking the connections and reconnecting USB. It uses `8` instead of `LED_BUILTIN` to select the external LED's pin.
+
+```cpp
+int ledPin = 8;
+
+void setup() {
+    pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+    digitalWrite(ledPin, HIGH);
+    delay(500);
+    digitalWrite(ledPin, LOW);
+    delay(500);
+}
+```
+
+The external LED blinks once per second. Change **both** delays to `1500` and upload again to blink once every 3 seconds.
+
+If it does not light, unplug USB and check the LED direction, hole numbers, and ground connection. If your breadboard has split power rails, put both ground wires in the same continuous section.
